@@ -1,0 +1,18 @@
+ÓE-AMK: Webprogramozás - Tamás Ferenc csoportja
+Készítsen egy weblapot a következő paraméterekkel:
+-    Élő, interneten hozzáférhető weblap legyen! (mint múltkor)
+-    A főoldal tetején kötelező felirat h1-es piros, 24px méretben: ez egy iskolai feladat!
+-    Főoldal alján valódi név és valódi e-mail cím legyen. (pl.: készítette: Tamás Ferenc; tferi@tferi.hu)
+-    Cég székhelye: Székesfehérvár, Budai út 45. (külön kérésre lehet más!)
+-    A webhelyen legyen a főoldal mellett min. 5 aloldal. 
+-    A főoldalról legyen link az aloldalakra és vissza is!
+-    A weblap vagy magyar nyelvű legyen, vagy angol. Vegyes nem elfogadott!
+-    Legyen min. 10 kép és min. 1 videó (lehet Youtube-ról is). Nem link, hanem valódi kép és valódi, beszúrt videó. Minden beszúrt elem passzoljon!!!
+-    Min. 500 karakternyi szöveg kötelező. Javasolt: 2 és 4 ezer között. 
+-    Legyen feltüntetve a pontos forrás mindenhol!
+-    Nagyon kiemelt értékelési szempont a design. Ez mellett a funkcionalitás. (értsd: működjön)
+-    A webhelyet 1 adott gépnél egy adott időben egy adott felbontással nézem meg. Ez alapján születik az értékelés. 
+-    Beadási határidő: 2020.dec.1. hajnali 01.01.
+-    Beadás módja: e-mail a tferi@tferi.hu címre. Tárgy: ÓE webprog. Szöveg: Saját neve és a weblap pontos URL-je. (Érdemes hozzáfűzni az FTP adatokat is.)
+-    A beadás akkor történik meg, ha válaszolok a levélre azzal, hogy megkaptam. 
+-    Milyen szempont legyen még? …………………….. (ide ötleteket kérek!)

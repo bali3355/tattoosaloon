@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Tattoo</title>
+</head>
+<body>
+<div class="header">
+
+</div>
+
+<div class="imagebox">
+        <div class="imagetextbox">
+            <div class="name"> 
+                 Magic tattoo
+            </div>
+            <div class="alt">
+                Ahol a varázslat életre kel..
+            </div>
+        </div>
+        <img src="/images/index1_2.jpg" alt="">  
+</div>
+
+<div></div>
+<div id="navbar">
+    <a href="/index.html">Főoldal</a>
+    <a href="/gallery.html">Munkáim</a>
+    <a href="/contact.html">Elérhetőség</a>
+    <a href="/about.html">Rólam</a>
+    </div>
+
+<div class="content">
+    <div class="column-gallery">
+            <div class="gallery-image">
+                <div class="imagebox">
+                    <a href="/images/2.jpg">
+                        <img src="/images/2.jpg" alt="">
+                    </a>
+                    <div class="imagetextbox" style="bottom: 4px;">
+                        <div class="imagelink">Photo by 
+                            <a href="https://unsplash.com/@lightrisephoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Devon Divine
+                            </a> on 
+                            <a href="https://unsplash.com/s/photos/tattoos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        <div class="back">
+            <div>
+                <a href="/gallery.html">Visszalépés</a>
+            </div>  
+        </div>         
+    </div>
+</div> 
+</div>
+<div class="footer">
+    <hr>
+    <div class="year" >
+            <div style="padding-bottom: 8px;">
+                <font style="letter-spacing: 5px; ">
+                2020
+                </font> 
+            </div>
+            <div style="padding-bottom: 20px;">
+                <font style="color: #727272;">
+                    Környei Balázs | balazs.kornyei@gmail.com
+                </font> 
+            </style=>
+    </div>
+</div>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

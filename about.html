@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Tattoo</title>
+</head>
+<body>
+<div class="header">
+
+</div>
+
+<div class="imagebox">
+        <div class="imagetextbox">
+            <div class="name"> 
+                 Magic tattoo
+            </div>
+            <div class="alt">
+                Ahol a varázslat életre kel..
+            </div>
+        </div>
+        <img src="/images/index1_2.jpg" alt="">  
+</div>
+
+<div></div>
+<div id="navbar">
+    <a href="/index.html">Főoldal</a>
+    <a href="/gallery.html">Munkáim</a>
+    <a href="/contact.html">Elérhetőség</a>
+    <a href="/about.html">Rólam</a>
+    </div>
+
+<div class="content">
+    <div class="content-column">
+        <div class="shade">
+            <div class="imagebox">
+                <img src="/images/2.jpg" alt="Én Dáviddal" title="Én Dáviddal">
+            </div>
+            <div class="textbox">
+                <div class="greetings-text">
+    Szia!
+                </div>
+                <div class="about-text">
+    Gyermelyi Gergőnek hívnak. Jelenleg tetováló mesterként, illetve üzletvezetőként dolgozom a Magic tattoo szalonban.
+    <h3>De honnan jött "Magic" szó? :)</h3>
+    Kiskoromtól kezdve imádtam rajzolni, mindenféle dolgot, amivel a szüleimnek is felhívtam a figyelmét. Sok sok rajzversenyen is részt vettem, amelyeken folyamatosan elvarázsoltam a zsűrit az kreatív világommal. Ebből adódóan, úgy gondoltam hogy ha rajzaimmal varázsolni tudok, akkor akár másokon varázsolni tudok.
+    Nekiláttam a tetováló képzésnek, és pár év után itt vagyunk!  
+    <br> <br>
+     Ha szeretnéd hogy téged is elvarázsoljalak, a munkáimat <a href="/gallery.html" style="text-decoration: none; color: rgb(255, 211, 160); font-weight: bold;">
+     itt
+    </a> 
+    meglesheted! Esetleg megtetszett a mesevilágom? Akkor <a href="/contact.html" style="text-decoration: none; color: rgb(255, 211, 160); font-weight: bold;">
+        itt megtalálsz
+    </a>
+    :) 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <hr>
+    <div class="year" >
+            <div style="padding-bottom: 8px;">
+                <font style="letter-spacing: 5px; ">
+                2020
+                </font> 
+            </div>
+            <div style="padding-bottom: 20px;">
+                <font style="color: #727272;">
+                    Környei Balázs | balazs.kornyei@gmail.com
+                </font> 
+            </style=>
+    </div>
+</div>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
