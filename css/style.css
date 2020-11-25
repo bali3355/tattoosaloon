@@ -8,7 +8,7 @@ body{
 }
 /*header és navbar közti kép*/
 .imagebox{
-    padding-top: 20px;
+
     position: relative;
     display: flex;
     justify-content: center;
@@ -443,6 +443,10 @@ background-color:rgb(42, 45, 46);
         height: auto;
         box-sizing: border-box;
         padding: 20px;
+    }
+    .s-images {
+        flex: 100%;
+        max-width: 100%;
     }
   }
   /*-----------------Elérhetőség-------------*/
