@@ -8,6 +8,7 @@ body{
 }
 /*header és navbar közti kép*/
 .imagebox{
+    padding-top: 20px;
     position: relative;
     display: flex;
     justify-content: center;
